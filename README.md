@@ -34,7 +34,7 @@ Utilicé Power BI para crear informes y visualizaciones interactivas basadas en 
 
 En esta sección, se presenta la lista de URLs principales utilizadas como punto de partida para el análisis y desarrollo del proyecto. Cada una de estas URLs contiene enlaces a páginas internas que también fueron analizadas.
 
-- Examen de admisión 2023-1
+- Examen de admisión 2023-1<br>
 https://admision.unmsm.edu.pe/Res_20231_Area_A/
 
 	Esta URL principal contiene enlaces a páginas de categorías, tales como:
@@ -42,7 +42,7 @@ https://admision.unmsm.edu.pe/Res_20231_Area_A/
 	- 	https://admision.unmsm.edu.pe/Res_20231_Area_A/A.html
 	- 	https://admision.unmsm.edu.pe/Res_20231_Area_A/A/011/0.html
 
-- Examen de admisión 2023-2
+- Examen de admisión 2023-2<br>
 https://admision.unmsm.edu.pe/WebsiteExa_20232/
 
 	Esta URL principal contiene enlaces a páginas de categorías, tales como:
@@ -50,7 +50,7 @@ https://admision.unmsm.edu.pe/WebsiteExa_20232/
 	- 	https://admision.unmsm.edu.pe/WebsiteExa_20232/A.html
 	- 	https://admision.unmsm.edu.pe/WebsiteExa_20232/A/011/0.html
 	
-- Examen de admisión 2024-1
+- Examen de admisión 2024-1<br>
 https://admision.unmsm.edu.pe/Website20241/
 
 	Esta URL principal contiene enlaces a páginas de categorías, tales como:
@@ -58,7 +58,7 @@ https://admision.unmsm.edu.pe/Website20241/
 	- 	https://admision.unmsm.edu.pe/Website20241/A.html
 	- 	https://admision.unmsm.edu.pe/Website20241/A/011/0.html
 	
-- Examen de admisión 2024-2
+- Examen de admisión 2024-2<br><br>
 https://admision.unmsm.edu.pe/Website20242/
 
 	Esta URL principal contiene enlaces a páginas de categorías, tales como:
@@ -78,7 +78,7 @@ https://admision.unmsm.edu.pe/Website20242/
 
 [![pagina-3-resultados.png](https://i.postimg.cc/qRVRjC4n/pagina-3-resultados.png)](https://postimg.cc/GBKdptBh)
 
-#### Estructura del Proyecto:
+## Estructura del Proyecto:
 
 sql/: Carpeta que contiene los archivos SQL.
 
@@ -87,8 +87,13 @@ sql/: Carpeta que contiene los archivos SQL.
 pbi/: Esta carpeta contiene el archivo de Power BI con los informes elaborados para el análisis de la información extraída.
 
 - PBI_postulantes_USM.pbi: Informe desarrollado en Powe BI.
+  
+README.md: Este archivo, que proporciona una guía sobre el proyecto y su estructura.
 
-#### Instrucciones para Configurar el Entorno del Proyecto
+
+[![estructura-proyecto.png](https://i.postimg.cc/nhMkWRyD/estructura-proyecto.png)](https://postimg.cc/k23K6cXJ)
+
+## Instrucciones para Configurar el Entorno del Proyecto
 
 1. Clona este repositorio en tu máquina local.
 2. Abre tu cliente de PostgreSQL o cualquier otro cliente de SQL que prefieras.
@@ -99,19 +104,19 @@ pbi/: Esta carpeta contiene el archivo de Power BI con los informes elaborados p
 7. Ejecuta el archivo python **Scraping_usm.py**
 8. Abre el archivo de Power BI proporcionado en la carpeta **"pbi"** del repositorio. Puedes abrirlo con Power BI Desktop, que puedes descargar gratuitamente desde el sitio web oficial de Microsoft. Una vez abierto, carga los datos desde la base de datos PostgreSQL para visualizar los informes y análisis preparados.
 
-### Instrucciones de activación del entorno virtual
+## Instrucciones de activación del entorno virtual
 
 Para activar el entorno virtual en su sistema, siga estos pasos:
 
-##### 1. Navegue hasta la carpeta del proyecto utilizando la terminal o el símbolo del sistema.
+#### 1. Navegue hasta la carpeta del proyecto utilizando la terminal o el símbolo del sistema.
 
 		web-scraping-python/entonovirtual/Scripts
 
-##### 2. Dentro de la carpeta `Scripts`, ejecute el siguiente comando:
+#### 2. Dentro de la carpeta `Scripts`, ejecute el siguiente comando:
 
 		activate
 
-##### 3. Instrucciones para instalar dependencias:
+#### 3. Instrucciones para instalar dependencias:
 
 Para instalar las dependencias del proyecto, siga estos pasos:
 
@@ -120,3 +125,15 @@ Para instalar las dependencias del proyecto, siga estos pasos:
 
 		pip install -r requirements.txt
 
+## Tabla para almacenar los datos
+[![Table.png](https://i.postimg.cc/Wb1C2nR2/Table.png)](https://postimg.cc/hhNpsVPw)
+
+## Informe PBI desarrollado
+
+[![pbi1.png](https://i.postimg.cc/d0sWJ2S2/pbi1.png)](https://postimg.cc/yDGhPZKx)
+
+[![pbi2.png](https://i.postimg.cc/Sxrr1XNJ/pbi2.png)](https://postimg.cc/211hVSWD)
+
+## Enlace del informe publicado en la web
+
+<a href="https://app.powerbi.com/view?r=eyJrIjoiNzJmNzhmMDMtNjVhYy00M2E4LWI5YWMtYmY5NzVkN2E1MDk4IiwidCI6ImFlNWFkYzNmLWI2MDUtNGRjMy04NmM3LWM5NDgzNjE2MDk3MiJ9" target="_blank"> Ver Informe Publicado en la Web</a>
