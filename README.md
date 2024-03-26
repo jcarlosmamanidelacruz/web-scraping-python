@@ -1,6 +1,10 @@
 # Web Scraping con Python
 
-El proyecto se centra en la creación de un sistema de extracción de datos a partir de información pública disponible en el sitio web de la Universidad Nacional de San Marcos. El objetivo principal es recopilar datos relevantes sobre los postulantes y las carreras universitarias ofrecidas por esta institución. Para lograrlo, se emplea técnicas de web scraping utilizando Python, junto con el almacenamiento de datos en una base de datos PostgreSQL y la generación de informes interactivos con Power BI. A continuación, se detallan los pasos seguidos para llevar a cabo este proyecto.
+El proyecto se centra en la creación de un sistema de extracción de datos a partir de información pública disponible en el sitio web de la Universidad Nacional de San Marcos. El objetivo principal es recopilar datos relevantes sobre los postulantes y las carreras universitarias ofrecidas por esta institución. Para lograrlo, se emplea técnicas de web scraping utilizando Python, junto con el almacenamiento de datos en una base de datos PostgreSQL y la generación de informes interactivos con Power BI.
+
+[![Arquitectura-de-Flujo-de-Datps-Web-Scraping-drawio.png](https://i.postimg.cc/26x6WBQ7/Arquitectura-de-Flujo-de-Datps-Web-Scraping-drawio.png)](https://postimg.cc/WFhTLzfd)
+
+A continuación, se detallan los pasos seguidos para llevar a cabo este proyecto.
 
 #### 1. Análisis del Sitio Web:
 
